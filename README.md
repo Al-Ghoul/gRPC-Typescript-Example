@@ -27,7 +27,7 @@ protoc \
 
 ```
 
-Add to the bottom of tsconfig.json
+Add the following to the bottom of tsconfig.json
 
 ```
 "rootDir": "./src",
@@ -36,6 +36,6 @@ Add to the bottom of tsconfig.json
 
 
 ## Build
-for builds see package.json scripts section
+for builds see [package.json](https://github.com/Al-Ghoul/gRPC-Typescript-Example/blob/master/package.json#L7-L11) scripts section
 
 
