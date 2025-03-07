@@ -1,0 +1,25 @@
+{
+  "name": "learn-grpc-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "start-client": "node dist/client.js",
+    "start-ts": "tsx src/server.ts",
+    "start-client-ts": "tsx src/client.ts",
+    "generate-types": "./generate.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.6"
+  },
+  "devDependencies": {
+    "ts-proto": "^2.6.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
